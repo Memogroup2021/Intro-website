@@ -791,6 +791,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li.filter-active {
   background: var(--blue);
   color: #fff;
+
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -800,30 +801,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
+  border-radius: 15%;
 }
 
 #portfolio .portfolio-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+  border-radius: 15%;
 }
 
 #portfolio .portfolio-item {
   position: relative;
   height: 360px;
   overflow: hidden;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -o-border-radius: 15%;
 }
 
 #portfolio .portfolio-item figure {
-  background: #000;
   overflow: hidden;
   height: 240px;
   position: relative;
-  border-radius: 4px 4px 0 0;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -o-border-radius: 15%;
   margin: 0;
 }
 
 #portfolio .portfolio-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -o-border-radius: 15%;
 }
 
 #portfolio .portfolio-item figure .link-preview,
@@ -920,7 +933,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
   position: relative;
 }
 
@@ -928,6 +940,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 15%;
   -moz-border-radius: 15%;
   -webkit-border-radius: 15%;
+  -o-border-radius: 15%;
+
 }
 
 #team .member .member-info {
@@ -937,10 +951,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
+  box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -964,6 +980,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 15%;
   -moz-border-radius: 15%;
   -webkit-border-radius: 15%;
+  -o-border-radius: 15%;
 }
 
 #team .member:hover .member-info-content {
