@@ -791,7 +791,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li.filter-active {
   background: var(--blue);
   color: #fff;
-
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -839,8 +838,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-border-radius: 15%;
 }
 
-#portfolio .portfolio-item figure .link-preview,
-#portfolio .portfolio-item figure .link-details {
+#portfolio .portfolio-item figure .link-preview, {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -853,8 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item figure .link-preview i,
-#portfolio .portfolio-item figure .link-details i {
+#portfolio .portfolio-item figure .link-preview i,{
   padding-top: 6px;
   font-size: 22px;
   color: #333;
@@ -865,29 +862,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: var(--blue);
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i,
-#portfolio .portfolio-item figure .link-details:hover i {
+#portfolio .portfolio-item figure .link-preview:hover i,{
   color: #fff;
 }
 
 #portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
-  top: calc(50% - 18px);
-}
-
-#portfolio .portfolio-item figure .link-details {
-  right: calc(50% - 38px);
+  left: calc(50% - 18px);
   top: calc(50% - 18px);
 }
 
 #portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  left: calc(50% - 44px);
-}
-
-#portfolio .portfolio-item figure:hover .link-details {
-  opacity: 1;
-  right: calc(50% - 44px);
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -941,7 +926,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-border-radius: 15%;
   -webkit-border-radius: 15%;
   -o-border-radius: 15%;
-
 }
 
 #team .member .member-info {

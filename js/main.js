@@ -169,6 +169,8 @@
     layoutMode: 'fitRows'
   });
 
+  portfolioIsotope.isotope({ filter: '.filter-mobile' });
+
   $('#portfolio-flters li').on( 'click', function() {
     $("#portfolio-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
