@@ -73,7 +73,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
 }
 
 #preloader:before {
@@ -816,11 +816,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li.filter-active {
   background: var(--blue);
   color: #fff;
+  font-weight: bold;
 }
 
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
+
 
 #portfolio .portfolio-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
@@ -852,6 +854,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-border-radius: 15%;
   -o-border-radius: 15%;
   margin: 0;
+  background: #000;
 }
 
 #portfolio .portfolio-item figure:hover img {
@@ -861,43 +864,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -o-border-radius: 15%;
+  background-color: rgb(75, 75, 75);
 }
 
-#portfolio .portfolio-item figure .link-preview, {
+#portfolio .portfolio-item figure div {
   position: absolute;
   display: inline-block;
   opacity: 0;
   line-height: 1;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #fff;
-  border-radius: 50%;
-  transition: 0.2s linear;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
-#portfolio .portfolio-item figure .link-preview i,{
-  padding-top: 6px;
-  font-size: 22px;
-  color: #333;
-}
-
-#portfolio .portfolio-item figure .link-preview:hover,
-#portfolio .portfolio-item figure .link-details:hover {
-  background: var(--blue);
-}
-
-#portfolio .portfolio-item figure .link-preview:hover i,{
-  color: #fff;
-}
-
-#portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 18px);
-  top: calc(50% - 18px);
-}
-
-#portfolio .portfolio-item figure:hover .link-preview {
+#portfolio .portfolio-item figure:hover div {
   opacity: 1;
+  left: calc(50% - 44px);
+  top: calc(50% - 22px);
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -914,14 +897,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   margin-bottom: 18px;
   padding-bottom: 0;
-}
-
-#portfolio .portfolio-item .portfolio-info h4 a {
   color: #333;
-}
-
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: var(--blue);
 }
 
 #portfolio .portfolio-item .portfolio-info p {

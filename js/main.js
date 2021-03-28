@@ -178,6 +178,7 @@
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-item',
     layoutMode: 'fitRows'
+
   });
 
   portfolioIsotope.isotope({ filter: '.filter-mobile' });
